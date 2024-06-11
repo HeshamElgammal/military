@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/military/static/css/main.13f416a5.css",
+    "main.css": "/military/static/css/main.1c1443e8.css",
     "main.js": "/military/static/js/main.f69c65f9.js",
     "static/js/453.a3d552da.chunk.js": "/military/static/js/453.a3d552da.chunk.js",
     "index.html": "/military/index.html",
-    "main.13f416a5.css.map": "/military/static/css/main.13f416a5.css.map",
+    "main.1c1443e8.css.map": "/military/static/css/main.1c1443e8.css.map",
     "main.f69c65f9.js.map": "/military/static/js/main.f69c65f9.js.map",
     "453.a3d552da.chunk.js.map": "/military/static/js/453.a3d552da.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13f416a5.css",
+    "static/css/main.1c1443e8.css",
     "static/js/main.f69c65f9.js"
   ]
 }
