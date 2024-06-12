@@ -17,7 +17,7 @@ const ItemList = ({ items }) => {
           {items.map((item, index) => (
             <tr key={index}>
               <div className='itemDate'>
-                <td>{'السنه/اليوم/الشهر'}</td>
+                <td className='date'>{'السنه/اليوم/الشهر'}</td>
               <td>{item.exchangeDate}</td>
               </div>
               <td>{item.rank}</td>
