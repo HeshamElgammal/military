@@ -16,7 +16,10 @@ const ItemList = ({ items }) => {
         <tbody>
           {items.map((item, index) => (
             <tr key={index}>
+              <div className='itemDate'>
+                <td>{'السنه/اليوم/الشهر'}</td>
               <td>{item.exchangeDate}</td>
+              </div>
               <td>{item.rank}</td>
               <td>{item.name}</td>
             </tr>

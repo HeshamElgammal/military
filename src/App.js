@@ -5,19 +5,6 @@ import './App.css';
 import dataaa from './data/مستشفي طنطا العسكري.json'
 import dataaa2 from './data/صف مستشفي طنطا العسكري.json'
 
-//give me ranks please
-
-const ranks = [
-  "لواء",
-  "عميد",
-  "عقيد",
-  "مقدم",
-  "رائد",
-  "نقيب",
-  "ملازم اول",
-  "ملازم",
-
-]
 
 
 
@@ -39,18 +26,12 @@ const App = () => {
     //Stop the invocation
     return () => clearTimeout(timer)
   }, [searchTerm])
-  const handleItemClick = (item) => {
-    setSearchTerm(item);
-    setShowDropdown(false);
-    alert(`You selected: ${item}`);
-  };
-
 
   return (
     <div className="app">
       <div className='header'>
         <div className='fixedHeader'>
-          <h1>ابحث بالاسم لمعرفة ميعاد صرف الدواء الخاص بك</h1>
+          <h1>ابحث بالاسم لمعرفة ميعاد صرف العلاج الشهري الخاص بك</h1>
           {/* <div className="dropdown-search"> */}
           {/* <div className="dropdown-list">
           {ranks.map((item, index) => (
@@ -71,7 +52,7 @@ const App = () => {
             value={searchTerm}
             onChange={handleSearchChange}
             onKeyUp={() => {
-              if (searchTerm.length>=5)
+              if (searchTerm.length>=2)
                 setshowItems(true)
             }}
           />
